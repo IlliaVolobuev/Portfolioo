@@ -1,0 +1,112 @@
+*{
+    padding: 0auto;
+    margin: 0auto;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: radial-gradient(circle at 74.47% 92.39%, #aab96c 0, #9fbb71 3.33%, #94be77 6.67%, #88c07f 10%, #7cc187 13.33%, #6fc390 16.67%, #61c499 20%, #52c5a4 23.33%, #42c5ae 26.67%, #2fc6b8 30%, #16c6c2 33.33%, #00c5cc 36.67%, #00c5d6 40%, #00c4de 43.33%, #00c3e6 46.67%, #0cc1ed 50%, #2ebff3 53.33%, #45bdf7 56.67%, #5abafa 60%, #6db7fc 63.33%, #7fb4fc 66.67%, #90b1fb 70%, #a0adf9 73.33%, #afaaf5 76.67%, #bda6f0 80%, #caa2e9 83.33%, #d59fe2 86.67%, #df9cda 90%, #e799d1 93.33%, #ee97c7 96.67%, #f395be 100%);
+    width: 100%;
+    height: 1000px;
+}
+.header{
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.list{
+    width: 40%;
+	font-size: 14px;  
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin-top: 27px;
+	margin-left: 30%;
+}
+.list_item{
+    width: 20%;
+	text-align: center;
+	color: white;
+}
+.list_item:hover{
+    font-weight: bold;
+}
+.knop{
+    width: 100px;
+    height: 50px;
+    background-image: radial-gradient(circle at 85.36% -11.24%, #ff85db 0, #ff85c6 4.17%, #ff86b2 8.33%, #ff8b9e 12.5%, #ff908a 16.67%, #ff9878 20.83%, #ffa066 25%, #ffa955 29.17%, #ffb145 33.33%, #ffba36 37.5%, #ffc227 41.67%, #ffca19 45.83%, #f8d110 50%, #e5d712 54.17%, #d1dd1e 58.33%, #bce32d 62.5%, #a6e73d 66.67%, #8deb4f 70.83%, #6fee61 75%, #46f174 79.17%, #00f487 83.33%, #00f69c 87.5%, #00f7b1 91.67%, #00f8c6 95.83%, #00f9dc 100%);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.logo{
+    width: 10%;
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+}
+.ja{
+  width: 352px;
+	height: 352px;
+	border-radius: 20px;
+	box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+}
+.Card_box {
+  width: 528px;
+  height: 352px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 500px;
+}
+.card {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  width: 528px;
+  height: 352px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  transition: all 2s ease;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.one{
+    background-image: url(../img/poland.png);
+}
+.two {
+  transform: rotateY(-180deg);
+  top: 0;
+  background-image: url(../img/ukraine.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card_box:hover .one {
+  transform:rotateY(180deg);
+}
+.Card_box:hover .two {
+  transform:rotateY(0deg);
+}
+
+.contanier{
+  display: inline-block;
+  margin-left: 100px;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spasibo{
+  width: 50%;
+  height: 40px;
+}
